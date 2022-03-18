@@ -15,7 +15,7 @@ const rooms = [
     bookingDetails: [
       {
         customerName: "Vinoth",
-        date: new Date().toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}),
+        date: new Date("2021-11-14"),
         start: "07:00",
         end: "10:00",
         status: "confirmed",
@@ -31,7 +31,7 @@ const rooms = [
     bookingDetails: [
       {
         customerName: "Vignesh",
-        date: new Date().toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}),
+        date: new Date("2021-11-14"),
         start: "15:00",
         end: "17:00",
         status: "Payment Pending",
