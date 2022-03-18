@@ -8,14 +8,14 @@ app.use(express.json());
 const rooms = [
   {
     name: "Elite",
-    seats: 100,
-    amenities: "wifi,projection screen,AC",
+    seats: 130,
+    amenities: "Front desk,Luggage storage, Travel desk, Parking facitity",
     price: 1500,
-    roomId: "abc",
+    roomId: "12345",
     bookingDetails: [
       {
-        customerName: "rrc",
-        date: new Date("2021-11-14"),
+        customerName: "Vinoth",
+        date: new Date().toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}),
         start: "07:00",
         end: "10:00",
         status: "confirmed",
@@ -24,14 +24,14 @@ const rooms = [
   },
   {
     name: "Premium",
-    seats: 150,
-    amenities: "wifi,projection screen,AC",
-    price: 2500,
-    roomId: "def",
+    seats: 180,
+    amenities: "Front desk,Luggage storage, Travel desk, Parking facitity,wifi,projection screen,AC,TV,",
+    price: 3500,
+    roomId: "23456",
     bookingDetails: [
       {
-        customerName: "rrc2",
-        date: new Date("2021-11-15"),
+        customerName: "Vignesh",
+        date: new Date().toLocaleString(undefined, {timeZone: 'Asia/Kolkata'}),
         start: "15:00",
         end: "17:00",
         status: "Payment Pending",
